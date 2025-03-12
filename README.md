@@ -20,10 +20,10 @@ The **Smart AI - Loan Approval System** is an AI-powered fintech application tha
 ```bash
 Smart-AI-Loan-Approval/
 │── loan_approval_dataset.csv
-|── preprocessed_data.csv       # Dataset used for training & testing
+│── preprocessed_data.csv       # Dataset used for training & testing
 │── credit_scoring_model.pkl    # Saved machine learning models
 │── preprocessing.py            # Scripts for data preprocessing
-|── model.py                    # Scripts for model training
+│── model.py                    # Scripts for model training
 │── Smart_loan_approval.py                      # Streamlit application
 │── requirements.txt            # Python dependencies
 │── README.md                   # Documentation
