@@ -1,4 +1,4 @@
-# **Smart AI - Loan Approval System**
+#Smart AI - Loan Approval System
 
 ## **Overview**
 The **Smart AI - Loan Approval System** is an AI-powered fintech application that predicts loan approvals with high accuracy. The system employs a **Random Forest Classifier (93% accuracy)** and provides **AI-driven responses** for loan decisions, ensuring transparency. The project is built using **Streamlit** and is **deployed on Azure** for scalability.
@@ -19,12 +19,14 @@ The **Smart AI - Loan Approval System** is an AI-powered fintech application tha
 ## **Project Structure**
 ```bash
 Smart-AI-Loan-Approval/
-│── data/               # Dataset used for training & testing
-│── models/             # Saved machine learning models
-│── scripts/            # Scripts for data preprocessing & training
-│── app.py              # Streamlit application
-│── requirements.txt    # Python dependencies
-│── README.md           # Documentation
+│── loan_approval_dataset.csv
+|── preprocessed_data.csv       # Dataset used for training & testing
+│── credit_scoring_model.pkl    # Saved machine learning models
+│── preprocessing.py            # Scripts for data preprocessing
+|── model.py                    # Scripts for model training
+│── Smart_loan_approval.py                      # Streamlit application
+│── requirements.txt            # Python dependencies
+│── README.md                   # Documentation
 ```
 
 ## **Installation & Setup**
