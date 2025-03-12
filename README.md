@@ -62,13 +62,13 @@ Ensure you have the following installed on your system:
 5. **Access the Web Application:**
    - Open your browser and visit: `http://localhost:8501/`
 
-
+## **Azure Link:** https://smart-ai-loan-approval-system.azurewebsites.net/
 ## **Screenshots**
 ### **Home Page**
-![Home Page](screenshots/home.png)
+![Home Page](home.png)
 
 ### **Prediction Result Page**
-![Prediction Result](screenshots/result.png)
+![Prediction Result](result.png)
 
 ## **License**
 This project is licensed under the **MIT License**.
