@@ -1,4 +1,4 @@
-#Smart AI - Loan Approval System
+# Smart AI - Loan Approval System
 
 ## **Overview**
 The **Smart AI - Loan Approval System** is an AI-powered fintech application that predicts loan approvals with high accuracy. The system employs a **Random Forest Classifier (93% accuracy)** and provides **AI-driven responses** for loan decisions, ensuring transparency. The project is built using **Streamlit** and is **deployed on Azure** for scalability.
