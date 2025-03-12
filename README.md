@@ -32,9 +32,8 @@ Smart-AI-Loan-Approval/
 ## **Installation & Setup**
 ### **Prerequisites**
 Ensure you have the following installed on your system:
-- Python (>=3.8)
+- Python (3.11)
 - pip (Python package manager)
-- Azure CLI (for deployment management)
 
 ### **Steps to Run the Project Locally**
 1. **Clone the Repository:**
@@ -63,25 +62,6 @@ Ensure you have the following installed on your system:
 5. **Access the Web Application:**
    - Open your browser and visit: `http://localhost:8501/`
 
-## **Deployment on Azure**
-### **Steps to Deploy on Azure**
-1. **Login to Azure:**
-   ```bash
-   az login
-   ```
-
-2. **Create an Azure Web App (if not already created):**
-   ```bash
-   az webapp create --resource-group <your-resource-group> --plan <your-app-service-plan> --name <your-app-name> --runtime "PYTHON:3.8"
-   ```
-
-3. **Deploy the Application:**
-   ```bash
-   az webapp up --name <your-app-name> --resource-group <your-resource-group>
-   ```
-
-4. **Access the Application:**
-   - Open: `https://your-app-name.azurewebsites.net`
 
 ## **Screenshots**
 ### **Home Page**
@@ -90,19 +70,11 @@ Ensure you have the following installed on your system:
 ### **Prediction Result Page**
 ![Prediction Result](screenshots/result.png)
 
-## **Contributing**
-We welcome contributions! Please follow these steps:
-1. **Fork the Repository**
-2. **Create a Feature Branch** (`git checkout -b feature-name`)
-3. **Commit Your Changes** (`git commit -m "Added new feature"`)
-4. **Push to Your Fork** (`git push origin feature-name`)
-5. **Create a Pull Request**
-
 ## **License**
 This project is licensed under the **MIT License**.
 
 ## **Contact**
 For queries or suggestions, contact:
-📧 Email: your-email@example.com
-📌 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+📧 Email: jagdeeshpersonal@gmail.com
+📌 LinkedIn: [Jagdeesh P](https://www.linkedin.com/in/jagdeesh-p/)
 
